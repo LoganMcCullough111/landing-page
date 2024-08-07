@@ -1,0 +1,159 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: 'Immortal', fantasy;
+    text-align: left;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    background-color: rebeccapurple;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 64px 64px;
+}
+
+.hero{
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 64px 64px 64px;
+    gap: 128px;
+    flex-wrap: wrap;
+}
+
+.pitch{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    gap: 24px;
+    max-width: 400px;
+}
+
+ul{
+    margin-right: 40px;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 10%;
+}
+
+.navbutton{
+    place-self: center end;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+    color: white;
+}
+
+.logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+@font-face{
+    font-family: 'Immortal';
+    src: url(fonts/IMMORTAL.ttf)
+}
+
+h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.pitchpara{
+    font-size: 18px;
+    margin: 0;
+}
+
+button{
+    max-width: 200px;
+    background-color: #846991;
+    color: white;
+    padding: 8px;
+    margin: 0;
+    border-radius: 8px;
+    border: 0;
+}
+
+.logotext{
+    font-size: 30px;
+}
+
+.gang img{
+    height: 150px;
+    width: auto;
+}
+
+.member{
+    max-width: 300px;
+    font-size: 18px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 16px 200px;
+}
+
+b{
+    font-size: 24px;
+    text-align: right;
+}
+
+.book{
+    display: flex;
+    background-color: #b69cba;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    padding: 40px 100px;
+    border-radius: 10px;
+    gap: 32px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.booktext{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: left;
+}
+
+.footer{
+    display: flex;
+    background-color: rebeccapurple;
+    align-items: center;
+    justify-content: center;
+}
